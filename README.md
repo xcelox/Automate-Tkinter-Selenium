@@ -1,17 +1,4 @@
-# 🟦 **GitHub Badges (Prontos para colar no README)**
-
-Você pode colocar estes no topo do README para deixar profissional:
-
-```markdown
-<p align="left">
-  https://img.shields.io/badge/Python-3.8+-blue?logo=python&logoColor=white
-  https://img.shields.io/badge/Selenium-Automation-green?logo=selenium&logoColor=white
-  https://img.shields.io/badge/Tkinter-GUI-orange
-  https://img.shields.io/badge/Platform-Correios-yellow
-  https://img.shields.io/badge/Status-Operational-success
-</p>
-
-# 📘 SADM — SMART Activation & Storage System
+<h1>📘 SADM — SMART Activation & Storage System</h1> 
 
 **SADM.py** is an automation tool built using **Python, Selenium, and Tkinter**.  
 It accelerates and synchronizes two different internal Correios workflows:
@@ -56,19 +43,36 @@ The two Chrome browsers are automatically resized to occupy **half of the screen
 Place these files in the same folder:
 
 | File               | Description                                       |
-|-------------------|----------------------------------------------------|
-| `SADM.py`         | Main automation script                             |
+|------------------- |---------------------------------------------------|
+| `SADM.py`          | Main automation script                            |
 | `chromedriver.exe` | Selenium Chrome driver                            |
-| `usuario.txt`     | CAS username                                       |
-| `senha.txt`       | CAS password                                       |
+| `usuario.txt`      | CAS username                                      |
+| `senha.txt`        | CAS password                                      |
 | `informacoes.txt` *(optional)* | Text for the info field in ADMN       |
 
 ---
 
-## 🔧 Requirements
+## ## 🚀Technologies
 
 - Python 3.8 or newer  
 - Google Chrome installed and updated  
 - Selenium  
   ```bash
   pip install selenium
+
+
+<div>
+   
+   <img src="https://img.shields.io/badge/Python-F7DF1E?style=for-the-badge&logo=python&logoColor=yelow">
+   <img src="https://img.shields.io/badge/flask-17234E?style=for-the-badge&logo=flask&logoColor=red">
+   <img src="https://img.shields.io/badge/MySql-239120?style=for-the-badge&logo=MySql&logoColor=17234e">
+   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
+  
+</div>
+
+</div>
+
+## 👨‍💻Developer
+
+[<img loading="lazy" src="https://avatars.githubusercontent.com/u/101431653?v=4" width=115><br><sub>| Marcelo Lourenço |</sub>](https://github.com/xcelox)
+</div>
