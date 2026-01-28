@@ -3,8 +3,8 @@
 **SADM.py** is an automation tool built using **Python, Selenium, and Tkinter**.  
 It accelerates and synchronizes two different internal Correios workflows:
 
-1. **Object Tracking / Activation (SMArTi platform)**
-2. **SMART Storage — Administrative Treatment (SSII platform)**
+1. **Object Tracking / Activation (SMARTI platform)**
+2. **SMARTI Storage — Administrative Treatment (SSII platform)**
 
 The system opens **two Chrome windows side-by-side** and processes every object code entered through the Tkinter interface, automatically executing all required actions in both platforms.
 
@@ -13,7 +13,7 @@ The system opens **two Chrome windows side-by-side** and processes every object 
 ## 🚀 Main Features
 
 ### ✔ 1. Tracking Browser (Left Side)
-- Automatic login to SMArTi  
+- Automatic login to SMARTI 
 - Navigates to **Security → Block/Activate Object**  
 - Types the object code and submits using **ENTER**  
 - Runs the internal activation flow automatically  
@@ -21,7 +21,6 @@ The system opens **two Chrome windows side-by-side** and processes every object 
 ### ✔ 2. SMART Storage Browser (Right Side)
 - Automatic login to SSII  
 - Navigates to **Operational Management → Administrative Treatment**  
-- Automatically fills the “information” field (from `informacoes.txt`, if present)  
 - Automatically selects **option[4]** in the combo box  
 - Reads → Finalizes → Confirms object treatment  
 - Clears the field and prepares for the next entry  
@@ -37,29 +36,11 @@ The system opens **two Chrome windows side-by-side** and processes every object 
 The two Chrome browsers are automatically resized to occupy **half of the screen each**.
 
 ---
-
-## 🗂 Required Files
-
-Place these files in the same folder:
-
-| File               | Description                                       |
-|------------------- |---------------------------------------------------|
-| `SADM.py`          | Main automation script                            |
-| `chromedriver.exe` | Selenium Chrome driver                            |
-| `usuario.txt`      | CAS username                                      |
-| `senha.txt`        | CAS password                                      |
-| `informacoes.txt` *(optional)* | Text for the info field in ADMN       |
-
----
-
 ## ## 🚀Technologies
 
 - Python 3.8 or newer  
 - Google Chrome installed and updated  
 - Selenium  
-  ```bash
-  pip install selenium
-
 
 <div>
    
