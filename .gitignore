@@ -1,0 +1,40 @@
+# ============================
+# PYTHON CACHE & BUILD FILES
+# ============================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+
+# Virtual environments
+.env
+venv/
+.venv/
+
+# ============================
+# LOCAL APP DATA (CREDENTIALS)
+# ============================
+# Arquivos sensíveis que NÃO devem ir para o GitHub
+usuario.txt
+senha.txt
+informacoes.txt
+
+# Bloqueio genérico de outros .txt
+*.txt
+
+# ============================
+# CHROME DRIVER / AUTOMATION
+# ============================
+chromedriver.exe
+Chrome_driver/
+
+# ============================
+# MISC / OS JUNK
+# ============================
+.DS_Store
+Thumbs.db
+
+# Favicon ou ícones
+*.ico
+
