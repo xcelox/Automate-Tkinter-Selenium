@@ -64,7 +64,7 @@ Place these files in the same folder:
 <div>
    
    <img src="https://img.shields.io/badge/Python-F7DF1E?style=for-the-badge&logo=python&logoColor=yelow">
-   <img src="https://img.shields.io/badge/TKinter-17234E?style=for-the-badge&logo=tkinter&logoColor=red">
+   <img src="https://img.shields.io/badge/TKinter-17234E?style=for-the-badge&logo=Tkinter&logoColor=red">
    <img src="https://img.shields.io/badge/Selenium-239120?style=for-the-badge&logo=selenium&logoColor=withe">
   
 </div>
